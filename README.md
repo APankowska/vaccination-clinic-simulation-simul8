@@ -56,16 +56,18 @@ Patients go through the following stages:
  - Maximum waiting time constraint (<= 60 minutes)
 
 ## Results
-### Model 1 (Baseline)
+### Model 1 
  - 80 people vaccinated
  - Daily savings: £9,600
  - Staff cost: £8,907.72
  - Overall profit: £692.28
-### Model 2 (Optimised Resources)
+ - ['first simulation'](https://github.com/APankowska/vaccination-clinic-simulation-simul8/blob/main/First%20simulation.pdf)
+### Model 2 
  - 74 people vaccinated
  - Savings: £8,880
  - Staff cost: £1,615.32
  - Overall profit: £7,264.68
+ - ['second simulation']
 
 ## Key Findings
  - Reducing staff significantly lowers operational costs.
