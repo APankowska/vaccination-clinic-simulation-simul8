@@ -67,7 +67,7 @@ Patients go through the following stages:
  - Savings: £8,880
  - Staff cost: £1,615.32
  - Overall profit: £7,264.68
- - ['second simulation']
+ - ['second simulation'](https://github.com/APankowska/vaccination-clinic-simulation-simul8/blob/main/Second%20simulation.pdf)
 
 ## Key Findings
  - Reducing staff significantly lowers operational costs.
