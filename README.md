@@ -99,4 +99,4 @@ The poster summarises:
  - recommendations.
 
 It demonstrates the ability to communicate complex analytical findings in a clear, structured, and decision-oriented format.
-See academic_poster.pdf for the full poster.
+See ['academic poster'](Poster AP.pdf) for the full poster.
