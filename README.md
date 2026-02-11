@@ -30,14 +30,14 @@ Patients go through the following stages:
 
 ## Input Data
 #### Patient Arrival Distribution (Exponential)
-| Time of Day | Arrivals per hour |
-|-------------|-------------------|
-| 8–9am | 12 |
-| 9–11am | 6 |
-| 11am–1pm | 12 |
-| 1–4pm | 6 |
-| 4–6pm | 15 |
-| 6–7pm | 0 |
+| Time of Day | Arrivals per hour | Distribution |
+|-------------|-------------------|--------------|
+| 8–9am | 12 | Exponential |
+| 9–11am | 6 | Exponential |
+| 11am–1pm | 12 | Exponential |
+| 1–4pm | 6 | Exponential |
+| 4–6pm | 15 | Exponential |
+| 6–7pm | 0 | Fixed |
 
 #### Process Time Distributions
 | Process | Distribution | Parameters|
@@ -45,7 +45,15 @@ Patients go through the following stages:
 | Registration | Triangular | 0.5, 1.5, 1 |
 | Health Check | Triangular | 8, 25, 15 |
 | Vaccination | Triangular | 5, 15, 9 |
-| Refreshments | Fixed | 15 |
+| Refreshments | Fixed | 15 minutes |
+
+### Operational Assumptions:
+ - Shift-based nurse scheduling
+ - Resource capacity limits
+ - One-task-per-nurse constraint
+ - Queue size limits
+ - Cost per nurse : £19.23/hour
+ - Maximum waiting time constraint (<= 60 minutes)
 
 ## Results
 ### Model 1 (Baseline)
@@ -79,3 +87,16 @@ This project demonstrates how simulation modelling can support strategic healthc
  - Queue analysis
  - Bottleneck identification
  - Cost-benefit analysis
+
+## Academic Poster Presentation
+The findings of this project were presented in the form of an academic research poster as part of the Management Science coursework assessment.
+
+The poster summarises:
+ - model design,
+ - input distributions,
+ - simulation results,
+ - cost analysis,
+ - recommendations.
+
+It demonstrates the ability to communicate complex analytical findings in a clear, structured, and decision-oriented format.
+See academic_poster.pdf for the full poster.
